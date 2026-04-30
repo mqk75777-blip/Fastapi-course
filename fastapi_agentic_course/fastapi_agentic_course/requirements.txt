@@ -1,0 +1,55 @@
+# Core
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Pydantic
+pydantic==2.10.3
+pydantic-settings==2.6.1
+email-validator==2.2.0
+
+# Database
+sqlalchemy==2.0.36
+alembic==1.14.0
+asyncpg==0.30.0          # PostgreSQL async driver
+aiosqlite==0.20.0        # SQLite async driver (for local dev)
+greenlet==3.1.1
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Redis & Celery
+redis==5.2.1
+celery==5.4.0
+hiredis==3.1.0
+
+# HTTP Client
+httpx==0.28.1
+anyio==4.7.0
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+respx==0.21.1
+pytest-cov==6.0.0
+
+# Observability
+structlog==24.4.0
+opentelemetry-api==1.29.0
+opentelemetry-sdk==1.29.0
+opentelemetry-instrumentation-fastapi==0.50b0
+opentelemetry-instrumentation-sqlalchemy==0.50b0
+opentelemetry-instrumentation-httpx==0.50b0
+opentelemetry-exporter-otlp==1.29.0
+
+# WebSockets
+websockets==14.1
+
+# Groq (for agentic modules)
+groq==0.13.1
+
+# Utilities
+python-dotenv==1.0.1
+orjson==3.10.12
+slowapi==0.1.9
